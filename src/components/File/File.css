@@ -1,0 +1,39 @@
+.fileHome {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.file-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.fileBox {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 1000px;
+}
+.fileContainer {
+  margin-top: 15px;
+  display: flex;
+  margin-left: 50px;
+  font-size: 30px;
+  padding: 50px 0;
+}
+
+.folder-box {
+  border: 1px solid black;
+  width: 300px;
+  padding: 5px;
+  margin-top: 2px;
+  height: 60px;
+  border-radius: 10px;
+}
+.folder-box div {
+  display: flex;
+  justify-content: space-between;
+}
+.folder-box:hover {
+  background-color: green;
+}
